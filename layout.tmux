@@ -9,7 +9,7 @@ tmux set-option -g   set-titles-string 'Project: #S | Window: #W | Title: #T'
 tmux set-option -g   status-justify centre
 tmux set-option -g   status-left-length 25
 tmux set-option -g   status-left '#h:#S |'
-tmux set-option -g   status-right '#{online_status} | #{battery_icon} #{battery_percentage} | %Y-%m-%d %H:%M #[default]'
+tmux set-option -g   status-right ' %Y-%m-%d %H:%M #[default]'
 tmux set-option -g status-bg colour235 #base02
 tmux set-option -g status-fg colour130 #yellow
 tmux set-option -g status-attr default
